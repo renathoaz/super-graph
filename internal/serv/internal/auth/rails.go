@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/dosco/super-graph/core"
-	"github.com/dosco/super-graph/internal/serv/internal/rails"
 	"github.com/garyburd/redigo/redis"
+	"github.com/renathoaz/super-graph/core"
+	"github.com/renathoaz/super-graph/internal/serv/internal/rails"
 )
 
 func RailsHandler(ac *Auth, next http.Handler) (http.HandlerFunc, error) {

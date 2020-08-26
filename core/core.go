@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dosco/super-graph/core/internal/psql"
-	"github.com/dosco/super-graph/core/internal/qcode"
-	"github.com/dosco/super-graph/core/internal/sdata"
+	"github.com/renathoaz/super-graph/core/internal/psql"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
 )
 
 type OpType int

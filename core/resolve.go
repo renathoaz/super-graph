@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dosco/super-graph/core/internal/sdata"
-	"github.com/dosco/super-graph/jsn"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
+	"github.com/renathoaz/super-graph/jsn"
 )
 
 type resolvFn struct {

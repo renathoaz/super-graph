@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dosco/super-graph/core/internal/psql"
-	"github.com/dosco/super-graph/jsn"
+	"github.com/renathoaz/super-graph/core/internal/psql"
+	"github.com/renathoaz/super-graph/jsn"
 )
 
 // argList function is used to create a list of arguments to pass

@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"encoding/base64"
 
-	"github.com/dosco/super-graph/core/internal/crypto"
-	"github.com/dosco/super-graph/core/internal/qcode"
-	"github.com/dosco/super-graph/jsn"
+	"github.com/renathoaz/super-graph/core/internal/crypto"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/jsn"
 )
 
 type cursors struct {

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/dosco/super-graph/core/internal/qcode"
-	"github.com/dosco/super-graph/core/internal/sdata"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
 )
 
 var dbs *sdata.DBSchema

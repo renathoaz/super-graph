@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dosco/super-graph/core/internal/allow"
-	"github.com/dosco/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/allow"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
 )
 
 type cquery struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gobuffalo/flect"
+	"github.com/renathoaz/flect"
 )
 
 type Config struct {

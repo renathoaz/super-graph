@@ -137,7 +137,7 @@ import (
   "database/sql"
   "fmt"
   "time"
-  "github.com/dosco/super-graph/core"
+  "github.com/renathoaz/super-graph/core"
   _ "github.com/jackc/pgx/v4/stdlib"
 )
 

@@ -9,7 +9,7 @@
 		"database/sql"
 		"fmt"
 		"time"
-		"github.com/dosco/super-graph/core"
+		"github.com/renathoaz/super-graph/core"
 		_ "github.com/jackc/pgx/v4/stdlib"
 	)
 
@@ -55,11 +55,11 @@ import (
 	"sync"
 
 	"github.com/chirino/graphql"
-	"github.com/dosco/super-graph/core/internal/allow"
-	"github.com/dosco/super-graph/core/internal/crypto"
-	"github.com/dosco/super-graph/core/internal/psql"
-	"github.com/dosco/super-graph/core/internal/qcode"
-	"github.com/dosco/super-graph/core/internal/sdata"
+	"github.com/renathoaz/super-graph/core/internal/allow"
+	"github.com/renathoaz/super-graph/core/internal/crypto"
+	"github.com/renathoaz/super-graph/core/internal/psql"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
 )
 
 type contextkey int

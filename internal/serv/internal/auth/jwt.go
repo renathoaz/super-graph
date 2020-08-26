@@ -10,7 +10,7 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/dosco/super-graph/core"
+	"github.com/renathoaz/super-graph/core"
 )
 
 const (

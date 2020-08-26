@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dosco/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
 	"github.com/rs/xid"
 )
 

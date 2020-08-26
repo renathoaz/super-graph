@@ -1,7 +1,7 @@
 package serv
 
 import (
-	"github.com/dosco/super-graph/core"
+	"github.com/renathoaz/super-graph/core"
 	"github.com/spf13/cobra"
 )
 

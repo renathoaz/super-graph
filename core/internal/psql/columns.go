@@ -1,8 +1,8 @@
 package psql
 
 import (
-	"github.com/dosco/super-graph/core/internal/qcode"
-	"github.com/dosco/super-graph/core/internal/sdata"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
 )
 
 func (c *compilerContext) renderColumns(sel *qcode.Select) {

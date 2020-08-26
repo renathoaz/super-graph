@@ -15,10 +15,10 @@ import (
 
 	"github.com/brianvoe/gofakeit/v5"
 	"github.com/dop251/goja"
-	"github.com/dosco/super-graph/core"
 	"github.com/gosimple/slug"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/stdlib"
+	"github.com/renathoaz/super-graph/core"
 	"github.com/spf13/cobra"
 )
 

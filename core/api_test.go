@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/dosco/super-graph/core/internal/sdata"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
 )
 
 func BenchmarkGraphQL(b *testing.B) {

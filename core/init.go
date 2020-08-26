@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dosco/super-graph/core/internal/qcode"
-	"github.com/dosco/super-graph/core/internal/sdata"
-	"github.com/gobuffalo/flect"
+	"github.com/renathoaz/flect"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
 )
 
 func (sg *SuperGraph) initConfig() error {
@@ -14,6 +14,7 @@ func (sg *SuperGraph) initConfig() error {
 
 	for k, v := range c.Inflections {
 		flect.AddPlural(k, v)
+		flect.AddSingular(v, k)
 	}
 
 	// Tables: Validate and sanitize

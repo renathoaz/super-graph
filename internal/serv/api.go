@@ -3,8 +3,8 @@ package serv
 import (
 	"time"
 
-	"github.com/dosco/super-graph/core"
-	"github.com/dosco/super-graph/internal/serv/internal/auth"
+	"github.com/renathoaz/super-graph/core"
+	"github.com/renathoaz/super-graph/internal/serv/internal/auth"
 
 	"github.com/spf13/viper"
 )

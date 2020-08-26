@@ -38,7 +38,7 @@ Use "super-graph [command] --help" for more information about a command.
 
 package main
 
-import "github.com/dosco/super-graph/internal/serv"
+import "github.com/renathoaz/super-graph/internal/serv"
 
 func main() {
 	serv.Cmd()

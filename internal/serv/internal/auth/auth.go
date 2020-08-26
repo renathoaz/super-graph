@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dosco/super-graph/core"
+	"github.com/renathoaz/super-graph/core"
 )
 
 // Auth struct contains authentication related config values used by the Super Graph service

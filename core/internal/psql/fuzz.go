@@ -5,7 +5,7 @@ package psql
 import (
 	"encoding/json"
 
-	"github.com/dosco/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
 )
 
 var (

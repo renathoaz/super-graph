@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dosco/super-graph/core"
-	"github.com/dosco/super-graph/internal/serv/internal/auth"
 	ws "github.com/gorilla/websocket"
+	"github.com/renathoaz/super-graph/core"
+	"github.com/renathoaz/super-graph/internal/serv/internal/auth"
 )
 
 type gqlWsReq struct {

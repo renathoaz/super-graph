@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/dosco/super-graph/core"
-	"github.com/dosco/super-graph/internal/serv/internal/auth"
 	"github.com/gorilla/websocket"
+	"github.com/renathoaz/super-graph/core"
+	"github.com/renathoaz/super-graph/internal/serv/internal/auth"
 	"github.com/rs/cors"
 	"go.opencensus.io/plugin/ochttp"
 	"go.opencensus.io/trace"

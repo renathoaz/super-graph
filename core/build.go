@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dosco/super-graph/core/internal/psql"
-	"github.com/dosco/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/psql"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
 )
 
 type stmt struct {

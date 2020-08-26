@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/dosco/super-graph/core/internal/qcode"
-	"github.com/dosco/super-graph/jsn"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/jsn"
 )
 
 func (sg *SuperGraph) execRemoteJoin(res qres, hdr http.Header) (qres, error) {

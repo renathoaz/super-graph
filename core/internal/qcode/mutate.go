@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dosco/super-graph/core/internal/graph"
-	"github.com/dosco/super-graph/core/internal/sdata"
-	"github.com/dosco/super-graph/core/internal/util"
-	"github.com/dosco/super-graph/jsn"
+	"github.com/renathoaz/super-graph/core/internal/graph"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
+	"github.com/renathoaz/super-graph/core/internal/util"
+	"github.com/renathoaz/super-graph/jsn"
 )
 
 type MType int8

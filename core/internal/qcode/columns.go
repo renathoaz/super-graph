@@ -3,9 +3,9 @@ package qcode
 import (
 	"fmt"
 
-	"github.com/dosco/super-graph/core/internal/graph"
-	"github.com/dosco/super-graph/core/internal/sdata"
-	"github.com/dosco/super-graph/core/internal/util"
+	"github.com/renathoaz/super-graph/core/internal/graph"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
+	"github.com/renathoaz/super-graph/core/internal/util"
 )
 
 func (co *Compiler) compileColumns(
@@ -49,7 +49,7 @@ func (co *Compiler) compileColumns(
 
 		// not a function
 		if fn.Name == "" {
-			if dbc, err := sel.Ti.GetColumn(f.Name); err == nil {
+			if dbc, err := sel.Ti.GetColumnB(f.Name); err == nil {
 				sel.Cols = append(sel.Cols, Column{Col: dbc, FieldName: fname})
 			} else {
 				return err

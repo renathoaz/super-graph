@@ -2,7 +2,7 @@
 package psql
 
 import (
-	"github.com/dosco/super-graph/core/internal/qcode"
+	"github.com/renathoaz/super-graph/core/internal/qcode"
 )
 
 func (c *compilerContext) renderInsert() {

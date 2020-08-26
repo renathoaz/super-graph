@@ -11,7 +11,7 @@ package main
 
 import (
 	"database/sql"
-	"github.com/dosco/super-graph/core"
+	"github.com/renathoaz/super-graph/core"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/render"
 	_ "github.com/jackc/pgx/v4/stdlib"

@@ -6,7 +6,7 @@ import (
 	"github.com/chirino/graphql"
 	"github.com/chirino/graphql/resolvers"
 	"github.com/chirino/graphql/schema"
-	"github.com/dosco/super-graph/core/internal/sdata"
+	"github.com/renathoaz/super-graph/core/internal/sdata"
 )
 
 var typeMap map[string]string = map[string]string{
