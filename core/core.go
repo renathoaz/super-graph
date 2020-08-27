@@ -170,6 +170,19 @@ func (c *scontext) resolveSQL(query string, vars []byte, role string) (qres, err
 		return res, err
 	}
 
+	if c.sg.abacEnabled && (c.op == qcode.QTQuery || c.op == qcode.QTSubscription) {
+		var found bool
+		for _, param := range cq.st.md.Params() {
+			if param.Name == "user_id" {
+				found = true
+				break
+			}
+		}
+		if !found {
+			args.values = append(args.values, c.Value(UserIDKey))
+		}
+	}
+
 	// var stime time.Time
 
 	// if c.sg.conf.EnableTracing {
@@ -219,11 +232,12 @@ func (c *scontext) resolveSQL(query string, vars []byte, role string) (qres, err
 }
 
 func (c *scontext) executeRoleQuery(conn *sql.Conn, role string) (string, error) {
-	if uid := c.Value(UserIDKey); uid == nil {
+	uid := c.Value(UserIDKey)
+	if uid == nil {
 		return "anon", nil
 	}
 
-	err := conn.QueryRowContext(c, c.sg.roleStmt, role).Scan(&role)
+	err := conn.QueryRowContext(c, c.sg.roleStmt, uid, role).Scan(&role)
 	return role, err
 }
 
